@@ -1352,7 +1352,7 @@ Webflow.destroy = function (options) {
 
 
   Webflow.resize.off();
-  Webflow.scroll.off();
+  Webflow.scroll.on();
   Webflow.redraw.off(); // Clear any queued ready methods
 
   primary = [];
