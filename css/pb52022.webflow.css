@@ -2727,6 +2727,7 @@
 }
 
 body {
+  overflow:visible;
   background-color: #141a2a;
   font-family: Thicccboi, sans-serif;
   color: #a6acb8;
@@ -3975,7 +3976,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   min-height: 80vh;
   padding: 121px 24px;
   -webkit-box-pack: center;
@@ -7497,6 +7498,7 @@ figcaption {
 }
 
 .body {
+  overflow:visible;
   background-color: #121316;
 }
 
@@ -7808,6 +7810,10 @@ figcaption {
     font-weight: 500;
   }
 
+  .header {
+    overflow: hidden;
+  }
+
   .header-logo {
     width: 300px;
     height: auto;
@@ -7818,9 +7824,29 @@ figcaption {
     font-weight: 500;
   }
 
+  .footer {
+    overflow: hidden;
+  }
+
+  .section {
+    overflow: hidden;
+  }
+
   .section.home-hero {
     max-height: none;
     min-height: auto;
+  }
+
+  .section.about-cryptos {
+    overflow: hidden;
+  }
+
+  .section.top.bottom-small {
+    overflow: hidden;
+  }
+
+  .section.howitworks {
+    overflow: hidden;
   }
 
   .image-wrapper.home-hero-image {
@@ -7834,6 +7860,10 @@ figcaption {
   .grid-2-columns.contact-top {
     -ms-grid-columns: 1.75fr 2.75fr;
     grid-template-columns: 1.75fr 2.75fr;
+  }
+
+  .cta-section {
+    overflow: hidden;
   }
 
   .field-label {
@@ -7854,6 +7884,10 @@ figcaption {
 
   ._404-shape._04 {
     max-width: 290px;
+  }
+
+  .body {
+    overflow: visible;
   }
 
   .paragraph-5 {
@@ -9977,7 +10011,9 @@ figcaption {
   }
 
   .body {
-    overflow: hidden;
+    overflow: visible;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 
   .paragraph-3 {
