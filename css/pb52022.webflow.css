@@ -7606,6 +7606,7 @@ figcaption {
   background-color: #13151a;
   background-image: none;
   background-size: auto;
+  color: #fff;
 }
 
 .nav-link-2 {
@@ -7639,6 +7640,7 @@ figcaption {
   margin-left: 20px;
   padding-right: 0px;
   background-color: #13151a;
+  color: #fff;
 }
 
 .container {
@@ -7646,6 +7648,7 @@ figcaption {
   margin-top: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #13151a;
 }
 
 @media screen and (min-width: 1440px) {
@@ -7866,17 +7869,18 @@ figcaption {
   .brand {
     width: auto;
     margin-top: 20px;
+    background-color: #13151a;
     background-image: none;
     background-size: auto;
     background-repeat: repeat;
   }
 
   .navbar {
-    background-color: #080606;
+    background-color: #13151a;
   }
 
   .nav-link-2 {
-    background-color: rgba(0, 0, 0, 0.09);
+    background-color: #13151a;
     font-family: Eurostile, sans-serif;
     color: #fff;
     font-size: 20px;
@@ -7884,7 +7888,7 @@ figcaption {
   }
 
   .nav-link-3 {
-    background-color: transparent;
+    background-color: #13151a;
     font-family: Eurostile, sans-serif;
     color: #fff;
     font-size: 20px;
@@ -7892,7 +7896,7 @@ figcaption {
   }
 
   .nav-link-4 {
-    background-color: rgba(0, 0, 0, 0.09);
+    background-color: #13151a;
     font-family: Eurostile, sans-serif;
     color: #fff;
     font-size: 20px;
@@ -7906,6 +7910,7 @@ figcaption {
 
   .container {
     max-width: 87%;
+    background-color: #13151a;
   }
 }
 
@@ -8278,8 +8283,13 @@ figcaption {
   }
 
   .section {
+    display: block;
     padding-top: 120px;
     padding-bottom: 120px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .section.home-hero {
@@ -8676,6 +8686,10 @@ figcaption {
     margin-top: 64px;
   }
 
+  .contact-form-card {
+    display: block;
+  }
+
   .plan-price-page {
     font-size: 30px;
   }
@@ -8795,12 +8809,18 @@ figcaption {
     margin-bottom: 40px;
   }
 
+  .heading-6 {
+    display: block;
+    text-align: center;
+  }
+
   .brand {
     width: 150px;
   }
 
   .navbar {
-    background-color: #111;
+    overflow: visible;
+    background-color: #13151a;
     color: #fff;
   }
 
@@ -8823,6 +8843,7 @@ figcaption {
     max-width: 95%;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #13151a;
   }
 }
 
@@ -8995,8 +9016,13 @@ figcaption {
   }
 
   .section {
+    display: block;
     padding-top: 80px;
     padding-bottom: 80px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .section.utility-page {
@@ -9434,8 +9460,21 @@ figcaption {
   }
 
   .contact-form-card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
     min-height: auto;
-    padding: 56px 32px;
+    padding: 56px 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .integration-page-icon {
@@ -9509,6 +9548,10 @@ figcaption {
     margin-top: 0px;
   }
 
+  .navbar {
+    background-color: #13151a;
+  }
+
   .nav-link-2 {
     padding: 5px 20px 5px 5px;
     font-size: 14px;
@@ -9541,6 +9584,7 @@ figcaption {
   .container {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #13151a;
   }
 }
 
@@ -9740,8 +9784,16 @@ figcaption {
   }
 
   .section {
+    display: block;
+    width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: Eurostile, sans-serif;
+    font-weight: 500;
   }
 
   .section.home-hero {
@@ -10078,6 +10130,23 @@ figcaption {
     flex-wrap: wrap;
   }
 
+  .social-links-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
   .footer-nav-main-wrapper {
     margin-bottom: 48px;
   }
@@ -10278,6 +10347,22 @@ figcaption {
     padding-left: 0px;
   }
 
+  .navbar {
+    background-color: #13151a;
+  }
+
+  .nav-link-2 {
+    background-color: #13151a;
+  }
+
+  .nav-link-3 {
+    background-color: #13151a;
+  }
+
+  .nav-link-4 {
+    background-color: #13151a;
+  }
+
   .nav-menu-2 {
     margin-left: 0px;
     white-space: normal;
@@ -10285,6 +10370,10 @@ figcaption {
 
   .menu-button-2 {
     padding: 10px;
+  }
+
+  .container {
+    background-color: #13151a;
   }
 
   .div-block-5 {
@@ -10452,6 +10541,15 @@ figcaption {
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
     grid-column-end: span 2;
+  }
+
+  #w-node-_05db1170-4f63-1cf3-046d-754f93faba50-93faba2f {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
 
   #w-node-_55044fd6-74d2-231a-2698-4ff604327260-0432725a {
